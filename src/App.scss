@@ -22,6 +22,13 @@ footer{
 }
 
 
+.social{
+  display: flex;
+  justify-content:center;
+  gap: 20px;
+}
+
+
 
 
 
@@ -133,9 +140,10 @@ footer{
 .banner-img{
 
   height: 300px;
-  background: url(/src/imgs/banner-img.jpg) no-repeat center;
+  background: url("/src/imgs/banner-img.jpg") no-repeat center;
   background-size: cover;
 }
+
 
 .nav-ul{
 

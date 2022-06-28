@@ -1,4 +1,7 @@
 import React from "react";
+import {FaFacebook} from "react-icons/fa";
+import {AiOutlineInstagram} from "react-icons/ai";
+
 
 
 
@@ -15,8 +18,8 @@ function Footer() {
              <br />
 
             <div className="social">
-                <i className="fa-brands fa-facebook fa-flip"></i>
-                <i className="fa-brands fa-instagram fa-flip"></i>
+                <FaFacebook />
+                <AiOutlineInstagram />
             </div>
         </footer>
     </div>
