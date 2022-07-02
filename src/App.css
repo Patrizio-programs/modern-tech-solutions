@@ -135,6 +135,15 @@ footer {
     transform: translate(0, 8px);
   }
 }
+#form-button:hover {
+  transform: scale(1.1);
+  background-color: #2edae0;
+}
+
+.mantine-gkf8jv {
+  width: 100%;
+}
+
 .banner-img {
   height: 300px;
   background: url("/src/imgs/banner-img.jpg") no-repeat center;

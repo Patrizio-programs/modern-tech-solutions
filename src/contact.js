@@ -80,15 +80,11 @@ const useStyles = createStyles((theme) => ({
 function Contact() {
     
     return (<div >
-
-        <br/><br/>
         
         <div className="form-div">
         <ContactUs/>
         </div>
 
-        
-        <br/><br/>
         
     </div>
 )}
@@ -104,16 +100,8 @@ function ContactUs() {
         document.getElementById("form").reset(); 
     }
 
-   
-    
     const sendEmail = () => {
 
-        
- 
-      
-
-               
-    
         emailjs.sendForm('service_o254kcw', 'template_pspf1fi', form.current, 'LfuScSUIeiHe69orR')
           .then((result) => {
               console.log(result.text);
@@ -162,7 +150,7 @@ function ContactUs() {
               placeholder="John Doe"
               mt="md"
               name="name"
-              requiredg
+              required
               classNames={{ input: classes.input, label: classes.inputLabel }}
             />
             <TextInput
@@ -193,7 +181,7 @@ function ContactUs() {
             />
   
             <Group position="right" mt="md">
-              <Button  onClick={() => {sendEmail(); reset(); }} className={classes.control }>Send message</Button>
+              <Button  onClick={() => {sendEmail(); reset(); }} className={classes.control } id="form-button">Send message</Button>
             </Group>
             </form>
             
