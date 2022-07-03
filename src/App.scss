@@ -8,7 +8,7 @@ footer{
   color: $blue;
   display: block;
   text-align: center;
-  margin-top: 300px;
+
 }
 
 .form-div{
@@ -33,6 +33,19 @@ footer{
 
 
 //Contact Form
+
+.whatsapp{
+  display: flex;
+  flex-direction: column;
+
+}
+
+#wrapper{
+  width: 100%;
+  border-radius: 0;
+}
+  
+
 .title{
   display: block;
   font-family: sans-serif;
@@ -140,6 +153,7 @@ footer{
 
 .mantine-gkf8jv{
   width: 100%;
+  border-radius: 0;
 
 }
 
@@ -156,7 +170,6 @@ footer{
 
 
 .nav-ul{
-
   list-style: none;
   display: flex;
   flex-direction: column;  
@@ -164,14 +177,28 @@ footer{
   color: #ffffff;
 }
 
+
 .menu-btn{
   margin: 5px;
   color: $blue;
-}
+  background-color: white;
+  border-radius: 5px;
+
+  &:hover{
+    background-color: $blue;
+    color: black;
+
+  }
+
+  &:hover .bar1, &:hover .bar2, &:hover .bar3{
+    background-color: white;
+  }
+
+  }
 
 
 .nav-ul li{
-  padding: 15px;
+  padding: 10px;
   text-decoration: none;
   color: white;
 }
@@ -267,6 +294,7 @@ footer{
 .header-logo{
   display: block;
   background-color: #000000;
+
 }
 
 ul.hidden {display: none;}
@@ -312,6 +340,8 @@ ul li a {
   margin: 6px 0;
   transition: 0.4s;
   color: white;
+
+
 }
 
 .change .bar1 {
@@ -326,10 +356,11 @@ ul li a {
   transform: rotate(45deg) translate(-8px, -8px);
 }
 
+
+
 footer{ 
   bottom: 0;
-  margin-top: 10%;
-  margin-top: 300px;
+
 }
 
 
@@ -486,7 +517,7 @@ footer{
 @media only screen and (min-width: 800px) and (max-width: 900px){
 
   .form-div{
-    width: 90%;
+    width: 100%;
     margin: auto;
   }
   
@@ -501,7 +532,7 @@ footer{
   
     bottom: 0;
     margin-top: 10%;
-    margin-top: 300px;
+  
   }
 
   .header-logo{

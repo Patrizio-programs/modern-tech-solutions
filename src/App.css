@@ -7,7 +7,6 @@ footer {
   color: #29bdc1;
   display: block;
   text-align: center;
-  margin-top: 300px;
 }
 
 .form-div {
@@ -22,6 +21,16 @@ footer {
   display: flex;
   justify-content: center;
   gap: 20px;
+}
+
+.whatsapp {
+  display: flex;
+  flex-direction: column;
+}
+
+#wrapper {
+  width: 100%;
+  border-radius: 0;
 }
 
 .title {
@@ -142,6 +151,7 @@ footer {
 
 .mantine-gkf8jv {
   width: 100%;
+  border-radius: 0;
 }
 
 .banner-img {
@@ -161,10 +171,19 @@ footer {
 .menu-btn {
   margin: 5px;
   color: #29bdc1;
+  background-color: white;
+  border-radius: 5px;
+}
+.menu-btn:hover {
+  background-color: #29bdc1;
+  color: black;
+}
+.menu-btn:hover .bar1, .menu-btn:hover .bar2, .menu-btn:hover .bar3 {
+  background-color: white;
 }
 
 .nav-ul li {
-  padding: 15px;
+  padding: 10px;
   text-decoration: none;
   color: white;
 }
@@ -304,8 +323,6 @@ ul li a {
 
 footer {
   bottom: 0;
-  margin-top: 10%;
-  margin-top: 300px;
 }
 
 @media only screen and (min-width: 901px) {
@@ -427,7 +444,7 @@ footer {
 }
 @media only screen and (min-width: 800px) and (max-width: 900px) {
   .form-div {
-    width: 90%;
+    width: 100%;
     margin: auto;
   }
 
@@ -442,7 +459,6 @@ footer {
   footer {
     bottom: 0;
     margin-top: 10%;
-    margin-top: 300px;
   }
 
   .header-logo {

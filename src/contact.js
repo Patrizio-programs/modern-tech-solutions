@@ -11,6 +11,8 @@ import {
     Group,
     
   } from '@mantine/core';
+  import {BsWhatsapp} from 'react-icons/bs';
+  import {AiOutlineMail} from 'react-icons/ai';
 
 
 const useStyles = createStyles((theme) => ({
@@ -119,18 +121,19 @@ function ContactUs() {
     
   
     return (
-      <div className={classes.wrapper}>
+      <div className={classes.wrapper} id='wrapper'>
         <SimpleGrid cols={2} spacing={50} breakpoints={[{ maxWidth: 'sm', cols: 1 }]}>
           <div>
             <Title className={classes.title}>Contact us</Title>
             <Text className={classes.description} mt="sm" mb={30}>
             <h4>Call us or Whatsapp:</h4>
         
-        <i className="fa-brands fa-whatsapp">(784)527-8041/(784)498-6565</i>
+       <div className="whatsapp"><BsWhatsapp/><p> (784)527-8041/(784)498-6565</p></div>
             </Text>
 
             <Text className={classes.description} mt="sm" mb={30}>
             <h4>Email us:</h4>
+            <AiOutlineMail/>
             <> moderntechsvg@gmail.com</>
             </Text>
 
