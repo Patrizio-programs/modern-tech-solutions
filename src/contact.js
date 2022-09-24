@@ -104,7 +104,7 @@ function ContactUs() {
 
     const sendEmail = () => {
 
-        emailjs.sendForm('service_o254kcw', 'template_pspf1fi', form.current, 'LfuScSUIeiHe69orR')
+        emailjs.sendForm('service_icut6uq', 'template_pspf1fi', form.current, '2s4fV328sdan51mOe')
           .then((result) => {
               console.log(result.text);
           }, (error) => {
