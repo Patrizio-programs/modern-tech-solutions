@@ -1,0 +1,252 @@
+{"movies":[
+ {
+    "_createdAt": "2022-06-22T08:03:09Z",
+    "_id": "0b12a656-9a02-494a-8cc7-63f5c8b442a0",
+    "_rev": "S6NcJ8LE6UwKyiSmUM3bek",
+    "_type": "movies",
+    "_updatedAt": "2022-06-23T17:05:49Z",
+    "description": "78-year-old Carl Fredricksen travels to Paradise Falls in his house equipped with balloons, inadvertently taking a young stowaway.",
+    "movieName": "Up",
+    "poster": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-48168473d265770b4e3b14463da298c2794071a6-540x810-jpg",
+        "_type": "reference"
+      }
+    },
+    "tags": [
+      "Adventure"
+    ]
+  },
+
+  {
+  "_createdAt": "2022-06-22T16:40:49Z",
+  "_id": "1b469e41-d24c-49f6-9e3f-bb65e20a9ec0",
+  "_rev": "OrQ6z7w0WB8N4bm29wY8Ei",
+  "_type": "movies",
+  "_updatedAt": "2022-06-22T16:40:49Z",
+  "description": "A Colombian teenage girl has to face the frustration of being the only member of her family without magical powers.",
+  "movieName": "Encanto",
+  "poster": {
+    "_type": "image",
+    "asset": {
+      "_ref": "image-6ee05d2a75dbfecc1e6faef562b88505fb7a2e27-540x810-jpg",
+      "_type": "reference"
+    }
+  },
+  "tags": [
+    "recent"
+  ]
+},
+
+{
+    "_createdAt": "2022-06-21T14:22:42Z",
+    "_id": "63c7ed6a-0c1c-4452-8e81-f834f841a548",
+    "_rev": "S6NcJ8LE6UwKyiSmUM1PT0",
+    "_type": "movies",
+    "_updatedAt": "2022-06-23T16:35:07Z",
+    "description": "A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boy's room.",
+    "movieName": "Toy Story",
+    "poster": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-61c74d7431e876c37b5f7fafd08b54c82e3540fb-1000x1500-jpg",
+        "_type": "reference"
+      }
+    },
+    "tags": [
+      "Adventure"
+    ]
+  },
+
+  {
+    "_createdAt": "2022-06-22T16:01:16Z",
+    "_id": "2d5e22cc-eaa7-46b1-b908-e29a36e9d1c3",
+    "_rev": "OrQ6z7w0WB8N4bm2A2SP9w",
+    "_type": "movies",
+    "_updatedAt": "2022-06-23T16:34:08Z",
+    "description": "A troubled child summons the courage to help a friendly alien escape from Earth and return to his home planet.",
+    "movieName": "E.T",
+    "poster": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-7940d0e769af164eaa33a2dfa7f49cb17336fb4e-1000x1560-jpg",
+        "_type": "reference"
+      }
+    },
+    "tags": [
+      "recent",
+      "Adventure"
+    ]
+  },
+
+  {
+    "_createdAt": "2022-06-22T07:51:00Z",
+    "_id": "cd5dc7af-c497-4d15-b15b-14454cb196ac",
+    "_rev": "OrQ6z7w0WB8N4bm29uQe1c",
+    "_type": "movies",
+    "_updatedAt": "2022-06-22T07:51:00Z",
+    "description": "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.",
+    "genre": "Adventure",
+    "movieName": "Finding Nemo",
+    "poster": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-f457ae322ef016811550f5888d466df8322c6897-261x380-jpg",
+        "_type": "reference"
+      }
+    }
+  },
+
+  {
+    "_createdAt": "2022-06-23T16:40:35Z",
+    "_id": "83a504a4-e96c-4b3f-b759-e884836824e8",
+    "_rev": "fEO11EA0NM7P8KkaWJa2nX",
+    "_type": "movies",
+    "_updatedAt": "2022-06-23T17:09:48Z",
+    "description": "After landing the gig of a lifetime, a New York jazz pianist suddenly finds himself trapped in a strange land between Earth and the afterlife.",
+    "movieName": "Soul",
+    "poster": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-d88f572cedaeb1a182e1bae203768f344900bb3d-940x1495-png",
+        "_type": "reference"
+      }
+    },
+    "tags": [
+      ""
+    ]
+  },
+
+  {
+    "_createdAt": "2022-06-22T07:58:08Z",
+    "_id": "a69f80f9-7fc0-4056-b453-711450158e33",
+    "_rev": "S6NcJ8LE6UwKyiSmULcKy2",
+    "_type": "movies",
+    "_updatedAt": "2022-06-23T10:39:22Z",
+    "description": "Determined to make her own path in life, Princess Merida defies a custom that brings chaos to her kingdom. Granted one wish, Merida must rely on her bravery and her archery skills to undo a beastly curse.",
+    "movieName": "Brave",
+    "poster": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-5383b4c6dadd466c78543da2eb4c25f64f07f5a8-259x383-jpg",
+        "_type": "reference"
+      }
+    },
+    "tags": [
+      "Adventure"
+    ]
+  },
+
+  {
+    "_createdAt": "2022-06-22T07:54:00Z",
+    "_id": "f5c76954-369d-4331-b648-12022f0cc94d",
+    "_rev": "fEO11EA0NM7P8KkaWByNui",
+    "_type": "movies",
+    "_updatedAt": "2022-06-22T07:54:00Z",
+    "description": "Emperor Kuzco is turned into a llama by his ex-administrator Yzma, and must now regain his throne with the help of Pacha, the gentle llama herder.",
+    "genre": "Adventure",
+    "movieName": "The Emperor's New Groove",
+    "poster": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-513005ba58d3390ec4d17a355167a7360fc7f3c8-1000x1409-jpg",
+        "_type": "reference"
+      }
+    }
+  },
+
+  {
+    "_createdAt": "2022-06-23T16:41:35Z",
+    "_id": "8df4e6e2-a501-4436-ba5d-82480d610058",
+    "_rev": "fEO11EA0NM7P8KkaWJRvWp",
+    "_type": "movies",
+    "_updatedAt": "2022-06-23T16:42:59Z",
+    "description": "Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself.",
+    "movieName": "Lion King",
+    "poster": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-af59b34bbc01199572a812b7cd52e9be9bd7d519-1000x1426-jpg",
+        "_type": "reference"
+      },
+      "crop": {
+        "_type": "sanity.imageCrop",
+        "bottom": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0
+      },
+      "hotspot": {
+        "_type": "sanity.imageHotspot",
+        "height": 1,
+        "width": 0.857142857142857,
+        "x": 0.4285714285714285,
+        "y": 0.5
+      }
+    },
+    "tags": [
+      "Adventure"
+    ]
+  },
+
+  {
+    "_createdAt": "2022-06-22T17:09:33Z",
+    "_id": "a869d22e-fcf5-4811-9757-a62511ce6f8a",
+    "_rev": "fEO11EA0NM7P8KkaWJZTLP",
+    "_type": "movies",
+    "_updatedAt": "2022-06-23T17:04:02Z",
+    "description": "The quiet life of a terrier named Max is upended when his owner takes in Duke, a stray whom Max instantly dislikes.",
+    "movieName": "Secret life of Pets",
+    "poster": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-a4d8c99d31bdb167209667c7202fa5d0a2b58da0-183x275-jpg",
+        "_type": "reference"
+      }
+    },
+    "tags": [
+      "recent",
+      "Comedy"
+    ]
+  },
+
+  {
+    "_createdAt": "2022-06-21T17:22:45Z",
+    "_id": "fe0d0244-61b4-4020-8885-25c587427183",
+    "_rev": "S6NcJ8LE6UwKyiSmUJCJas",
+    "_type": "movies",
+    "_updatedAt": "2022-06-21T17:22:45Z",
+    "description": "When the newly crowned Queen Elsa accidentally uses her power to turn things into ice to curse her home in infinite winter, her sister Anna teams up with a mountain man, his playful reindeer, and a snowman to change the weather condition.",
+    "genre": "Adventure",
+    "movieName": "Frozen",
+    "poster": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-a2111ea80312859ee0c982c1bde3da39cc5f4b5a-1382x2048-jpg",
+        "_type": "reference"
+      }
+    }
+  },
+
+  {
+    "_createdAt": "2022-06-22T16:53:18Z",
+    "_id": "5ebfaeee-6057-483a-8a5e-7021df1b58ac",
+    "_rev": "OrQ6z7w0WB8N4bm29weJfI",
+    "_type": "movies",
+    "_updatedAt": "2022-06-22T16:53:18Z",
+    "description": "While spending years attempting to return home, marooned Space Ranger Buzz Lightyear encounters an army of ruthless robots commanded by Zurg who are attempting to steal his fuel source.",
+    "movieName": "Lightyear",
+    "poster": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-3a78d778caef23376209cea554a21d6ba774fca3-770x1100-jpg",
+        "_type": "reference"
+      }
+    },
+    "tags": [
+      "recent"
+    ]
+  }
+
+]}
