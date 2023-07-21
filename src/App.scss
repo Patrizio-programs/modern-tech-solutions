@@ -221,36 +221,30 @@ footer{
 }
 
 //Responsive card Mobile
+
+
 .card{
-  position:relative;
-  padding:42px 32px;
-  margin: 5px;
-  clip-path: circle(5% at 95% 2%);
-  transition: all ease-in-out .3s;
-  background-color:#ffffff;
-  
-  &__infoicon{
-    position:absolute;
+
+  margin: auto;
+  padding-top: 10px;
+  margin: 10px;
+
+
+
+  &__img{
+
+    width: 300px;
+    height: 300px;
+    max-height: 400px;
+    margin: auto;
+
+    background: url(/src/imgs/camera.jpg);
+    background-size: cover;
+    align-self: center;
     
-    top:3px;
-    right:18px;
-    
-    font-size:1em;
-    color:#000000;
-    transition:ease-out .3s;
   }
-  &__title{
-    margin:0;
-    
-    font-size: 3em;
-    line-height:1.8;
-  }
-  &__description{
-    margin:0;
-    
-    font-size: 1.1em;
-    line-height:1.6;
-  }
+
+
   &__credits{
     margin:0;
     padding: 4px 0;
@@ -261,7 +255,7 @@ footer{
     display:inline-block;
     
     border-bottom: 1px solid transparent;
-    color: black;
+    color:black;
     text-decoration:none;
     transition: ease-in .3s;
     &:hover{
@@ -270,6 +264,7 @@ footer{
   }
   
   &:hover, &:focus{
+    transition: ease-in .5s;
     clip-path: circle(75%);
     border-radius:20px;
     box-shadow: 0px 3px 9px rgba(0,0,0,0.12),
@@ -287,8 +282,6 @@ footer{
                 0px 0px 0px 4px rgba(0,0,0,0.2);
   }
 }
-
-
 
 
 .header-logo{
@@ -368,7 +361,7 @@ footer{
 
 //DESKTOP
 
-@media only screen and (min-width: 901px){
+@media only screen and (min-width: 1200px){
 
   .form-div{
     width: 100%;
@@ -427,14 +420,11 @@ footer{
     height: 800px;
   }
   .card{
-    position:relative;
     
-    padding:42px 32px;
+    
+    padding: 10px 10px;
     margin: 30px;
     
-    clip-path: circle(15% at 50% 0%);
-    transition: all ease-in-out .3s;
-    background-color:#ffffff;
     
     &__infoicon{
       position:absolute;
@@ -477,7 +467,7 @@ footer{
     }
     
     &:hover, &:focus{
-      clip-path: circle(75%);
+      transition: ease-in .5s;
       border-radius:20px;
       box-shadow: 0px 3px 9px rgba(0,0,0,0.12),
                   0px 3px 18px rgba(0,0,0,0.08);
@@ -514,7 +504,7 @@ footer{
 
 //TABLET VEIW
 
-@media only screen and (min-width: 800px) and (max-width: 900px){
+@media only screen and (min-width: 800px) and (max-width: 1096px){
 
   .form-div{
     width: 100%;
@@ -560,43 +550,21 @@ footer{
   .about-div{
     display: flex;
     justify-items: center;
-    justify-content: space-evenly;
+    justify-content:space-between;
     text-align: center;    
     font-family:"nunito", sans-serif;
     background-color:$blue;
+    width: auto;
   }
   .card{
-    position:relative;
-    
-    padding:42px 32px;
+
     margin: 10px;
+
     
-    clip-path: circle(5% at 95% 2%);
-    transition: all ease-in-out .3s;
-    background-color:#ffffff;
+    &__container{
+      width: auto;
+    }
     
-    &__infoicon{
-      position:absolute;
-      
-      top:10px;
-      right:35px;
-      
-      font-size:1.4em;
-      color:#000000;
-      transition:ease-out .3s;
-    }
-    &__title{
-      margin:0;
-      
-      font-size: 3em;
-      line-height:1.8;
-    }
-    &__description{
-      margin:0;
-      
-      font-size: 1.1em;
-      line-height:1.6;
-    }
     &__credits{
       margin:0;
       padding: 4px 0;
@@ -616,6 +584,8 @@ footer{
     }
     
     &:hover, &:focus{
+      transition: ease-in .5s;
+
       clip-path: circle(75%);
       border-radius:20px;
       box-shadow: 0px 3px 9px rgba(0,0,0,0.12),
